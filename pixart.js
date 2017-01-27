@@ -9,32 +9,14 @@ $("#set-color").click(function(event){
 });
 
 
+for (var i = 0; i < 8000; i++) {
+  $('body').append('<div class="square"></div>');
+}
 
-
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
-$('body').append('<div class="square"></div>');
 
 var square = $('.square')
 
-square.on("click", function(){
-  $(".square").css('background', document.getElementById('color-field').value);
+square.on("mouseover", function(){
+  $(this).css('background', document.getElementById('color-field').value);
 
 })
