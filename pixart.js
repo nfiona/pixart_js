@@ -10,6 +10,7 @@ $("#set-color").click(function(event){
 
 
 
+
 $('body').append('<div class="square"></div>');
 $('body').append('<div class="square"></div>');
 $('body').append('<div class="square"></div>');
@@ -30,3 +31,10 @@ $('body').append('<div class="square"></div>');
 $('body').append('<div class="square"></div>');
 $('body').append('<div class="square"></div>');
 $('body').append('<div class="square"></div>');
+
+var square = $('.square')
+
+square.on("click", function(){
+  $(".square").css('background', document.getElementById('color-field').value);
+
+})
