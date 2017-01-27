@@ -7,3 +7,26 @@ setColor.on("click", function(){
 $("#set-color").click(function(event){
   event.preventDefault();
 });
+
+
+
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
+$('body').append('<div class="square"></div>');
